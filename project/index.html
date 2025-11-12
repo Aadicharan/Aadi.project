@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏏 Two-Team Cricket Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏏 Two-Team Interactive Cricket Game</h1>
+
+  <div id="scoreboards">
+    <div class="team-card" id="teamA">
+      <h2>Team A 🅰️</h2>
+      <p>Runs: <span id="runsA">0</span></p>
+      <p>Wickets: <span id="wicketsA">0</span></p>
+      <p>Overs: <span id="oversA">0</span></p>
+    </div>
+
+    <div class="team-card" id="teamB">
+      <h2>Team B 🅱️</h2>
+      <p>Runs: <span id="runsB">0</span></p>
+      <p>Wickets: <span id="wicketsB">0</span></p>
+      <p>Overs: <span id="oversB">0</span></p>
+    </div>
+  </div>
+
+  <h3 id="turn-display">🏏 Team A batting...</h3>
+
+  <div class="buttons">
+    <button id="bat-button" onclick="bat()">🏏 Bat</button>
+    <button id="bowl-button" onclick="bowl()">🎯 Bowl</button>
+    <button id="next-button" onclick="switchInnings()">🔁 Next Innings</button>
+    <button id="reset-button" onclick="resetGame()">🔄 Reset</button>
+  </div>
+
+  <h2 id="result"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>

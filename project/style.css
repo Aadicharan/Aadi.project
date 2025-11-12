@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #bbdefb, #e3f2fd);
+  padding: 20px;
+}
+
+h1 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+#scoreboards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 200px;
+}
+
+.team-card h2 {
+  color: #1565c0;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#bat-button { background-color: #43a047; }
+#bowl-button { background-color: #1e88e5; }
+#next-button { background-color: #fb8c00; }
+#reset-button { background-color: #e53935; }
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d47a1;
+}
